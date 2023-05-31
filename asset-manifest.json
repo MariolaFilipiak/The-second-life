@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/The-second-life/static/css/main.9449f190.css",
+    "main.js": "/The-second-life/static/js/main.a09f274d.js",
+    "static/js/787.62c8cf97.chunk.js": "/The-second-life/static/js/787.62c8cf97.chunk.js",
+    "index.html": "/The-second-life/index.html",
+    "main.9449f190.css.map": "/The-second-life/static/css/main.9449f190.css.map",
+    "main.a09f274d.js.map": "/The-second-life/static/js/main.a09f274d.js.map",
+    "787.62c8cf97.chunk.js.map": "/The-second-life/static/js/787.62c8cf97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9449f190.css",
+    "static/js/main.a09f274d.js"
+  ]
+}

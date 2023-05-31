@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "category": "outerwear",
+    "description": "Sunt qui cillum amet incididunt Lorem esse laborum eiusmod et pariatur id sit deserunt excepteur. Deserunt et laborum quis pariatur irure labore. Nostrud veniam eu eiusmod magna est aute culpa. Ullamco exercitation nisi dolore ad consequat officia do nostrud ex sint ea id incididunt incididunt. Et consectetur ipsum aliquip culpa laborum veniam. Voluptate exercitation proident sit irure aliqua proident aliquip do id minim magna. Nostrud veniam ut voluptate qui labore sit.",
+    "image": "https://images.pexels.com/photos/15485736/pexels-photo-15485736/free-photo-of-woman-in-sunglasses-and-checked-jacket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 39.95,
+    "title": "Checkered shirt"
+  },
+  {
+    "id": 2,
+    "category": "outerwear",
+    "description": "In enim commodo id deserunt amet et dolor ex irure veniam ad ad. Nostrud ut irure cupidatat velit culpa ex do Lorem reprehenderit dolor culpa. Deserunt qui eiusmod sint proident cupidatat id laboris eu Lorem tempor.",
+    "image": "https://images.pexels.com/photos/5474616/pexels-photo-5474616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 29.95,
+    "title": "Black jacket"
+  },
+  {
+    "id": 3,
+    "category": "outerwear",
+    "description": "Culpa duis officia sint id pariatur ullamco anim cillum magna occaecat. Commodo amet dolore deserunt voluptate ullamco mollit incididunt nisi fugiat magna cillum elit quis adipisicing. Exercitation labore magna non pariatur cupidatat duis proident deserunt Lorem culpa dolore id.",
+    "image": "https://images.pexels.com/photos/11028516/pexels-photo-11028516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 49.95,
+    "title": "Jacket"
+  },
+  {
+    "id": 4,
+    "category": "outerwear",
+    "description": "Dolore sit reprehenderit veniam exercitation proident deserunt proident deserunt non nostrud minim. In ipsum labore excepteur adipisicing sunt ea occaecat consectetur dolore. Velit labore consequat aute laboris duis aute incididunt laboris ipsum reprehenderit consequat adipisicing amet.",
+    "image": "https://images.pexels.com/photos/9712001/pexels-photo-9712001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 59.95,
+    "title": "Jeans jacket"
+  },
+  {
+    "id": 5,
+    "category": "outerwear",
+    "description": "Enim labore veniam voluptate voluptate. In laboris do eiusmod quis adipisicing irure velit nisi et. Laborum incididunt eiusmod laborum excepteur et duis laboris eiusmod deserunt culpa. Pariatur aliquip ad enim dolore occaecat culpa. Ad ut nostrud ex aute deserunt minim exercitation amet elit amet ullamco deserunt.",
+    "image": "https://images.pexels.com/photos/16173109/pexels-photo-16173109/free-photo-of-woman-in-white-jacket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 39.95,
+    "title": "White jacket"
+  },
+  {
+    "id": 6,
+    "category": "other",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/12145309/pexels-photo-12145309.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "price": 109.95,
+    "title": "Gold plated earrings"
+  },
+  {
+    "id": 7,
+    "category": "other",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "price": 99.95,
+    "title": "Men's watch"
+  },
+  {
+    "id": 8,
+    "category": "other",
+    "description": "Veniam in irure et aliqua sit velit duis. Qui minim esse velit mollit sit reprehenderit do cillum anim ex. Lorem eiusmod elit ex Lorem magna proident nostrud aliquip nostrud reprehenderit quis fugiat laborum ullamco. Consequat enim amet anim voluptate dolor fugiat ullamco anim excepteur deserunt commodo cillum esse culpa. Dolore ex aute laborum ipsum duis commodo est. In cillum labore enim ullamco nostrud in.",
+    "image": "https://images.pexels.com/photos/1162519/pexels-photo-1162519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 89.95,
+    "title": "Women's watch"
+  },
+  {
+    "id": 9,
+    "category": "other",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "price": 79.95,
+    "title": "Retro backpack"
+  },
+  {
+    "id": 10,
+    "category": "other",
+    "description": "Ipsum esse dolore fugiat irure. Pariatur nisi culpa nisi elit minim occaecat elit magna esse mollit. Excepteur occaecat labore nostrud dolor enim consequat reprehenderit.",
+    "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 69.95,
+    "title": "Shoulder bag"
+  },
+  {
+    "id": 11,
+    "category": "shoes",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/5864656/pexels-photo-5864656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 49.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 12,
+    "category": "shoes",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/7569688/pexels-photo-7569688.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "price": 109.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 13,
+    "category": "shoes",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/11687184/pexels-photo-11687184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 29.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 14,
+    "category": "shoes",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/1627820/pexels-photo-1627820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 39.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 15,
+    "category": "shoes",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/9942890/pexels-photo-9942890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 59.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 16,
+    "category": "shirts",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/10616018/pexels-photo-10616018.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "price": 79.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 17,
+    "category": "shirts",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/15433421/pexels-photo-15433421/free-photo-of-brunette-woman-in-shirt-and-jeans-posing-on-sewalk.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "price": 29.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 18,
+    "category": "shirts",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/15484722/pexels-photo-15484722/free-photo-of-woman-posing-with-arm-raised.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "price": 89.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 19,
+    "category": "shirts",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/15517827/pexels-photo-15517827/free-photo-of-woman-in-shirt.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "price": 29.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 20,
+    "category": "shirts",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/15485454/pexels-photo-15485454/free-photo-of-young-woman-posing-in-a-shirt.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 9.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 21,
+    "category": "pants",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/11411551/pexels-photo-11411551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 89.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 22,
+    "category": "pants",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/12931615/pexels-photo-12931615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 109.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 23,
+    "category": "pants",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/1895943/pexels-photo-1895943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 39.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 24,
+    "category": "pants",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/1027160/pexels-photo-1027160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 49.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 25,
+    "category": "pants",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 29.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 26,
+    "category": "skirts",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/1684079/pexels-photo-1684079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 99.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 27,
+    "category": "skirts",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/1857375/pexels-photo-1857375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 239.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 28,
+    "category": "skirts",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/1670808/pexels-photo-1670808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 189.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 29,
+    "category": "skirts",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 19.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 30,
+    "category": "skirts",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "image": "https://images.pexels.com/photos/1007018/pexels-photo-1007018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 29.95,
+
+    "title": "Fjallraven - Fo"
+  },
+  {
+    "id": 31,
+    "category": "dresses",
+    "description": "Our maternity dress perfectly accentuates your new curves while providing ample room for your growing belly. Made from the highest quality, soft, and elastic material, it adapts to your changing silhouette, ensuring freedom of movement and comfortable wear.",
+    "image": "https://images.pexels.com/photos/6573791/pexels-photo-6573791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 39.95,
+
+    "title": "Maternity dress"
+  },
+  {
+    "id": 32,
+    "category": "dresses",
+    "description": "Perfect for those special occasions when you wish to make a statement, this dress exudes confidence and poise. Whether it's an elegant gala, a romantic evening affair, or a glamorous cocktail party, this dress is your ultimate companion for a night filled with enchantment.Accessorize with delicate silver jewelry and a pair of stiletto heels to complete the look of timeless sophistication. Let the world be captivated by your presence as you radiate an aura of refined beauty and undeniable charm.Indulge in the allure of our black, long, and flowing dress, and embrace the magic that unfolds when elegance meets grace.",
+    "image": "https://images.pexels.com/photos/13791316/pexels-photo-13791316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 49.95,
+
+    "title": "Black flowing dress"
+  },
+  {
+    "id": 33,
+    "category": "dresses",
+    "description": "The black fitted knee-length dress is a stunning piece that exudes elegance and allure. Designed without shoulder straps, it showcases a sleek and sophisticated silhouette, emphasizing the wearer's curves. The dress gracefully hugs the body, accentuating the feminine figure.",
+    "image": "https://images.pexels.com/photos/14560162/pexels-photo-14560162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 39.95,
+
+    "title": "Black tight dress"
+  },
+  {
+    "id": 34,
+    "category": "dresses",
+    "description": "This powder pink dress with ruffled shoulders is the epitome of feminine elegance. The soft and delicate color creates a romantic ambiance, while the ruffles add a touch of playfulness and charm.The dress features a fitted bodice that accentuates the curves and a flared skirt that gracefully flows around the body. The ruffled shoulders create a beautiful ethereal effect, adding volume and movement to the overall design. The delicate frills cascade down the arms, lending an air of sophistication to the dress.",
+    "image": "https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 69.95,
+
+    "title": "Powder pink"
+  },
+  {
+    "id": 35,
+    "category": "dresses",
+    "description": "The red long dress cascades down to the ankles, exuding elegance and sophistication. The vibrant shade of red commands attention, capturing the essence of passion and allure. Crafted with meticulous detail, the dress hugs the contours of the body, accentuating feminine curves with grace. Its flowing fabric gracefully drapes from the shoulders, creating a captivating silhouette as it sways with every step.",
+    "image": "https://images.pexels.com/photos/1755428/pexels-photo-1755428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 79.95,
+
+    "title": "Red-long dress"
+  },
+  {
+    "id": 36,
+    "category": "t-shirt",
+    "description": "Upgrade your basics with our Basic T-shirt, a fundamental piece that combines simplicity and versatility. Constructed from a blend of premium fabrics, this tee offers a luxurious feel against the skin. Its clean, minimalist design features a crew neckline and short sleeves, allowing you to create endless outfit combinations. Whether you dress it up with a blazer or keep it casual with shorts, this Basic T-shirt is a reliable choice for any occasion.",
+    "image": "https://images.pexels.com/photos/13178670/pexels-photo-13178670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 29.95,
+
+    "title": "Bottle green t-shirt"
+  },
+  {
+    "id": 37,
+    "category": "t-shirt",
+    "description": "Upgrade your casual wardrobe with this basic t-shirt that exudes effortless chic. The loose and relaxed",
+    "image": "https://images.pexels.com/photos/11202032/pexels-photo-11202032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 19.95,
+
+    "title": "Basic t-shirt"
+  },
+  {
+    "id": 38,
+    "category": "t-shirt",
+    "description": "Channel your inner retro enthusiast with this vintage-inspired graphic tee. The eye-catching design showcases vibrant colors and a retro motif, adding a touch of nostalgia to your outfit. Crafted from high-quality fabric, this t-shirt offers both style and comfort.",
+    "image": "https://images.pexels.com/photos/15198403/pexels-photo-15198403/free-photo-of-standing-woman-posing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 39.95,
+
+    "title": "Retro"
+  },
+  {
+    "id": 39,
+    "category": "t-shirt",
+    "description": "Discover the perfect blend of comfort and simplicity with our Basic T-shirt. Crafted from premium quality fabric, this tee offers a lightweight and breathable feel, ensuring all-day comfort. Its classic design features a crew neck and short sleeves, making it a staple for casual outfits. The Basic T-shirt pairs effortlessly with jeans, skirts, or shorts, allowing you to create a variety of looks that reflect your personal style.",
+    "image": "https://images.pexels.com/photos/14823052/pexels-photo-14823052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 10.95,
+
+    "title": "Basic"
+  },
+  {
+    "id": 40,
+    "category": "t-shirt",
+    "description": "Embrace a minimalist approach to fashion with this wardrobe essential, the basic t-shirt. Its clean and uncomplicated design perfectly embodies the less-is-more philosophy. Crafted from high-quality materials, it guarantees both style and durability. Whether you're going for a monochromatic look or mixing it with bold patterns, this t-shirt effortlessly complements any ensemble.",
+    "image": "https://images.pexels.com/photos/15172292/pexels-photo-15172292/free-photo-of-standing-smiling-woman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 11.95,
+    "title": "Striped t-shirt"
+  }
+]

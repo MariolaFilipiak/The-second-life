@@ -1,4 +1,29 @@
-# Getting Started with Create React App
+# Demo
+
+https://mariolafilipiak.github.io/The-second-life/
+
+![img](https://github.com/MariolaFilipiak/The-second-life/blob/main/public/Mockup.png?raw=true)
+
+## Technologies used
+
+HTML
+
+CSS
+
+Normalize
+
+React
+
+Redux
+
+Redux-Saga
+
+Bootstrap
+
+#
+#
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

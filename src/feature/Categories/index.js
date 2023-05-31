@@ -6,7 +6,7 @@ const Categories = () => {
 
   useEffect(() => {
     const fetchCategories = async () => {
-        const response = await fetch(`/products.json`);
+        const response = await fetch("/products.json");
         if (response.ok) {
           const data = await response.json();
           const uniqueCategories = [

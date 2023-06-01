@@ -10,13 +10,13 @@ const Login = () => {
               <div className="col-sm-6 text-center py-5">
                 <h3 className="font-weight-bold">Sign-in</h3>
                 <div className="d-flex my-3 justify-content-center">
-                  <a href="#" className="mx-2 btn btn-light rounded-circle">
+                  <a  className="mx-2 btn btn-light rounded-circle">
                     <i className="mdi mdi-facebook"></i>
                   </a>
-                  <a href="#" className="mx-2 btn btn-light rounded-circle">
+                  <a  className="mx-2 btn btn-light rounded-circle">
                     <i className="mdi mdi-twitter"></i>
                   </a>
-                  <a href="#" className="mx-2 btn btn-light rounded-circle">
+                  <a  className="mx-2 btn btn-light rounded-circle">
                     <i className="mdi mdi-linkedin"></i>
                   </a>
                 </div>
@@ -63,7 +63,7 @@ const Login = () => {
                   </div>
                   <div className="form-group">
                     <div className="mx-auto">
-                      <a href="#" className="small text-dark">
+                      <a  className="small text-dark">
                         Forgot your password?
                       </a>
                     </div>

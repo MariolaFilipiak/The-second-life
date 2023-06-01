@@ -8,7 +8,8 @@ import { shuffleProducts } from "../shufleProducts";
 import { getProductsData } from "../../../common/getData";
 import { addToCart } from "../../../common/Cart/cartSlice";
 import ProductsCard from "../ProductsCard";
-import { Loading } from "../../Loading";
+import { Loading } from "../../../common/Loading";
+import Error from "../../../common/Error";
 
 const Product = () => {
   const { id } = useParams();
@@ -18,15 +19,24 @@ const Product = () => {
   const [showModal, setShowModal] = useState(false);
   const products = useSelector(selectProducts);
   const displayedProducts = shuffleProducts(products).slice(0, 4);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     const fetchProduct = async () => {
-      const response = await axios.get(`/products.json`);
-      const productsData = response.data;
-      const selectedProduct = productsData.find(
-        (product) => product.id === parseInt(id)
-      );
-      setProduct(selectedProduct);
+      try {
+        const response = await axios.get(`/products.json`);
+        const productsData = response.data;
+        const selectedProduct = productsData.find(
+          (product) => product.id === parseInt(id)
+        );
+        if (selectedProduct) {
+          setProduct(selectedProduct);
+        } else {
+          setError(true); 
+        }
+      } catch (error) {
+        setError(true);
+      }
     };
     fetchProduct();
     getProductsData();
@@ -43,16 +53,20 @@ const Product = () => {
   const closeModal = () => {
     setShowModal(false);
   };
-
+  if (error) {
+    return (
+     <Error/>
+    );
+  }
   return (
-    <div className="container mb-5 my-5">
+    <div className="container mb-5 ">
       <Link to={"/products"} className="btn  mb-5 my-5">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
           height="20"
           fill="currentColor"
-          class="bi bi-arrow-left"
+          className="bi bi-arrow-left"
           viewBox="0 0 16 16"
         >
           <path

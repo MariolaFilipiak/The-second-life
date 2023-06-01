@@ -1,10 +1,14 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts, selectProducts, selectProductsStatus } from "./productsSlice";
-import { Loading } from "../Loading";
+import {
+  getProducts,
+  selectProducts,
+  selectProductsStatus,
+} from "./productsSlice";
+import { Loading } from "../../common/Loading";
 import Categories from "../Categories";
 import ProductsCard from "./ProductsCard";
-
+import Error from "../../common/Error";
 
 const Products = () => {
   const dispatch = useDispatch();
@@ -20,20 +24,22 @@ const Products = () => {
     loading: <Loading />,
     success: (
       <>
-      <div className="container">
-        <div className="mb-3">
-          <h1 className="display-6 fw-bolder text-center mt-3">ALL PRODUCTS</h1>
-          <hr />
+        <div className="container ">
+          <div className="mb-3">
+            <h1 className="display-6 fw-bolder text-center mt-3">
+              ALL PRODUCTS
+            </h1>
+            <hr />
+          </div>
         </div>
-      </div>
-      <div className="container text-center d-flex flex-wrap my-3 py-3 justify-content-center">
-        <Categories />
-      </div>
-        <ProductsCard products={displayedProducts} />    </>
+        <div className="container text-center d-flex flex-wrap my-3 py-3 justify-content-center ">
+          <Categories />
+        </div>
+        <ProductsCard products={displayedProducts} />
+      </>
     ),
-    error: <p>error</p>
+    error: <Error/>
   }[status];
-  };
+};
 
 export default Products;
-

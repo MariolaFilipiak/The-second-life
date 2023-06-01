@@ -9,6 +9,7 @@ const Cart = () => {
   const total = useSelector(selectCartTotalQuantity);
   const totalValue = useSelector(selectCartTotalValue);
   const dispatch = useDispatch();
+  
 
   const handleInc = (id) => {
     const cart = carts.find((item) => item.id === id);
@@ -39,11 +40,10 @@ const Cart = () => {
 
   return (
     <>
-      <section className="h-100 h-custom ">
+      <section className="min-vh-100">
         <div className="container py-2 h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-12">
-              <div className="card card-registration card-registration-2">
                 <div className="card-body p-0">
                   <div className="row g-0">
                     <div className="col-lg-8">
@@ -56,7 +56,7 @@ const Cart = () => {
                         {carts?.map((cart) => {
                           return (
                             <>
-                              <div className="row mb-4 d-flex justify-content-center align-items-center">
+                              <div  key={cart?.id} className="row mb-4 d-flex justify-content-center align-items-center">
                                 <div className="col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2 ">
                                   <img
                                     key={cart?.title}
@@ -93,6 +93,11 @@ const Cart = () => {
                                   <input
                                     style={{ width: "70px" }}
                                     value={cart.quantity}
+                                     onChange={(e) =>
+    dispatch(
+      updateQuantity({ productId: cart.id, quantity: e.target.value })
+    )
+  }
                                     className="form-control text-center form-fs-sm mb-3 mt-3"
                                   />
 
@@ -127,7 +132,7 @@ const Cart = () => {
                                       width="16"
                                       height="16"
                                       fill="currentColor"
-                                      class="bi bi-trash"
+                                      className="bi bi-trash"
                                       viewBox="0 0 16 16"
                                     >
                                       <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z" />
@@ -150,11 +155,11 @@ const Cart = () => {
                                 width="20"
                                 height="20"
                                 fill="currentColor"
-                                class="bi bi-arrow-left"
+                                className="bi bi-arrow-left"
                                 viewBox="0 0 16 16"
                               >
                                 <path
-                                  fill-rule="evenodd"
+                                  fillRule="evenodd"
                                   d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
                                 />
                               </svg>{" "}
@@ -197,7 +202,6 @@ const Cart = () => {
               </div>
             </div>
           </div>
-        </div>
       </section>
     </>
   );

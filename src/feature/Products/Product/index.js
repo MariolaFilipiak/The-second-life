@@ -10,7 +10,6 @@ import { addToCart } from "../../../common/Cart/cartSlice";
 import ProductsCard from "../ProductsCard";
 import { Loading } from "../../../common/Loading";
 import Error from "../../../common/Error";
-
 const Product = () => {
   const { id } = useParams();
   const dispatch = useDispatch();
@@ -24,7 +23,7 @@ const Product = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`/products.json`);
+        const response = await axios.get(`/the-second-life/products.json`);
         const productsData = response.data;
         const selectedProduct = productsData.find(
           (product) => product.id === parseInt(id)

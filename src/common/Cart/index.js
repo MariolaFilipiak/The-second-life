@@ -56,7 +56,7 @@ const Cart = () => {
                         {carts?.map((cart) => {
                           return (
                             <>
-                              <div  key={cart?.id} className="row mb-4 d-flex justify-content-center align-items-center">
+                              <div  key={cart?.category} className="row mb-4 d-flex justify-content-center align-items-center">
                                 <div className="col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2 ">
                                   <img
                                     key={cart?.title}

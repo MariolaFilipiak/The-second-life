@@ -13,7 +13,7 @@ const CategoryProducts = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       setIsLoading(true);
-      const response = await axios.get(`/products.json`);
+      const response = await axios.get(`/the-second-life/products.json`);
       const data = response.data;
       const selectedProducts = data.filter(
         (product) => product.category === name

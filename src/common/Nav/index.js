@@ -9,7 +9,7 @@ const Nav = () => {
   const total = useSelector(selectCartTotalQuantity);
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary py-3">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary py-3 px-3">
       <div className="container-fluid">
         <Link to={"/"} className="navbar-brand mx-auto fw-bold fs-1 ">
           THE SECOND LIFE
@@ -55,7 +55,7 @@ const Nav = () => {
             </li>
           </ul>
           <div className="buttons">
-            <Link to={"/login"} href="" className="btn btn-outline-dark">
+            <Link to={"/login"} className="btn btn-outline-dark">
               <span className="fa fa-sign-in me-1"></span> Login
             </Link>
             <Link to={"/cart"} className="btn btn-outline-dark ms-2">

@@ -8,7 +8,7 @@ const Categories = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await axios.get("/the-second-life/products.json");
+        const response = await axios.get("/The-second-life/products.json");
         const data = response.data;
         const uniqueCategories = [
           ...new Set(data.map((product) => product.category)),

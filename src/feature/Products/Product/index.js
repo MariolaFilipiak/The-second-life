@@ -23,7 +23,7 @@ const Product = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`/the-second-life/products.json`);
+        const response = await axios.get(`/The-second-life/products.json`);
         const productsData = response.data;
         const selectedProduct = productsData.find(
           (product) => product.id === parseInt(id)

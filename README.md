@@ -1,6 +1,6 @@
 # Demo
 
-https://mariolafilipiak.github.io/The-second-life/
+[The-second-life](https://mariolafilipiak.github.io/The-second-life/)
 
 ![img](https://github.com/MariolaFilipiak/The-second-life/blob/main/public/Mockup.png?raw=true)
 

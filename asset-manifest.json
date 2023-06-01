@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/The-second-life/static/css/main.d4c354f2.css",
-    "main.js": "/The-second-life/static/js/main.2a8fb3ec.js",
+    "main.js": "/The-second-life/static/js/main.a4c2a2a0.js",
     "static/js/787.62c8cf97.chunk.js": "/The-second-life/static/js/787.62c8cf97.chunk.js",
     "index.html": "/The-second-life/index.html",
     "main.d4c354f2.css.map": "/The-second-life/static/css/main.d4c354f2.css.map",
-    "main.2a8fb3ec.js.map": "/The-second-life/static/js/main.2a8fb3ec.js.map",
+    "main.a4c2a2a0.js.map": "/The-second-life/static/js/main.a4c2a2a0.js.map",
     "787.62c8cf97.chunk.js.map": "/The-second-life/static/js/787.62c8cf97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4c354f2.css",
-    "static/js/main.2a8fb3ec.js"
+    "static/js/main.a4c2a2a0.js"
   ]
 }

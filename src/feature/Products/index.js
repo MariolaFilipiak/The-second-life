@@ -31,7 +31,7 @@ const Products = () => {
       </div>
         <ProductsCard products={displayedProducts} />    </>
     ),
-    error: <p>error</p>,
+    error: <p>error</p>
   }[status];
   };
 

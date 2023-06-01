@@ -4,7 +4,7 @@ import { getProducts, selectProducts } from "../productsSlice";
 import { shuffleProducts } from "../shufleProducts";
 import Categories from "../../Categories";
 import ProductsCard from "../ProductsCard";
-import { Loading } from "../../Loading";
+import { Loading } from "../../../common/Loading";
 
 
 const PopularProducts = () => {

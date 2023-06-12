@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "ES2015",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node"
+  }
+}

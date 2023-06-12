@@ -1,0 +1,11 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import { Provider } from "react-redux";
+import store from "./common/store";
+import { BrowserRouter } from "react-router-dom";
+const root = document.getElementById("root");
+ReactDOM.render(_jsx(React.StrictMode, { children: _jsx(BrowserRouter, { basename: "The-second-life", children: _jsx(Provider, { store: store, children: _jsx(App, {}) }) }) }), root);

@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Intro = () => {
+    return (_jsx("div", { className: "container py-5", children: _jsxs("div", { className: "row mb-5 align-items-center flex-lg-row-reverse", children: [_jsx("div", { className: "col-md-6 col-xl-7 mb-4 mb-lg-0 ", children: _jsx("div", { className: "lc-block position-relative", children: _jsx("img", { className: "img-fluid rounded shadow", src: "https://images.pexels.com/photos/6069562/pexels-photo-6069562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", alt: "the second life" }) }) }), _jsxs("div", { className: "col-md-6 col-xl-5", children: [_jsx("div", { className: "lc-block mb-3", children: _jsx("div", { children: _jsx("h2", { className: "fw-bolder display-2", children: "THE SECOND LIFE" }) }) }), _jsx("div", { className: "lc-block mb-4", children: _jsx("div", { children: _jsx("p", { className: "lead", children: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam velit temporibus impedits maxime repellendus esse tempore odio voluptatum iusto consectetur voluptates." }) }) })] })] }) }));
+};
+export default Intro;

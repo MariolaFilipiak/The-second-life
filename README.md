@@ -6,9 +6,9 @@
 
 ## Technologies used
 
-HTML
+Bootstrap
 
-CSS
+TypeScript
 
 Normalize
 
@@ -17,12 +17,6 @@ React
 Redux
 
 Redux-Saga
-
-Bootstrap
-
-TypeScript
-
-
 
 ## Getting Started with Create React App
 

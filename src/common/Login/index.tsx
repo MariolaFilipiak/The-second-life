@@ -1,5 +1,3 @@
-import React from "react";
-
 const Login = () => {
   return (
     <div className="container py-4 min-vh-100 d-flex flex-column justify-content-center">

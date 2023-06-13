@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
@@ -9,18 +9,7 @@ import { getProductsData } from "../../../common/getData";
 import { addToCart, selectCartItems } from "../../../common/Cart/cartSlice";
 import ProductsCard from "../ProductsCard";
 import { Loading } from "../../../common/Loading";
-import Error from "../../../common/Error";
-
-interface Product {
-  product: any;
-  image: any;
-  title: string;
-  category: string;
-  description: string;
-  price: number;
-  id: number;
-  quantity: number;
-}
+import { Product } from "../type";
 
 const ProductDetail = () => {
   const { id } = useParams<{ id?: string }>();
@@ -72,10 +61,6 @@ const ProductDetail = () => {
   const closeModal = () => {
     setShowModal(false);
   };
-
-  if (error) {
-    return <Error />;
-  }
 
   return (
     <div className="container mb-5">

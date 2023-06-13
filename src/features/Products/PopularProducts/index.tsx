@@ -5,18 +5,11 @@ import { shuffleProducts } from "../shufleProducts";
 import Categories from "../../Categories";
 import ProductsCard from "../ProductsCard";
 import { Loading } from "../../../common/Loading";
-
-interface Product {
-  id: string;
-  image: string;
-  title: string;
-  price: number;
-}
+import { Product } from "../type";
 
 interface PopularProductsProps {
   products: Product[];
 }
-
 
 const PopularProducts = ({ products }: PopularProductsProps) => {
   const dispatch = useDispatch();

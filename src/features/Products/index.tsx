@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   getProducts,
@@ -9,17 +9,11 @@ import { Loading } from "../../common/Loading";
 import Categories from "../Categories";
 import ProductsCard from "./ProductsCard";
 import Error from "../../common/Error";
-
-type Product = {
-  id: any;
-  image: any;
-  title: string;
-  price: number;
-};
+import { Product } from "./type";
 
 const Products = () => {
   const dispatch = useDispatch();
-  const products:Product[] = useSelector(selectProducts);
+  const products: Product[] = useSelector(selectProducts);
   const status: string = useSelector(selectProductsStatus);
   const displayedProducts = products.slice(0, 40);
 

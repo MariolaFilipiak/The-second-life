@@ -1,12 +1,9 @@
-import React, { useEffect, useState } from "react";
-import CategoriesButtons from "./CategoriesButtons";
+import { useEffect, useState } from "react";
 import axios from "axios";
+import CategoriesButtons from "./CategoriesButtons";
+import { Product } from "../Products/type";
 
-interface Product {
-  category: string;
-  // ... inne pola produktu
-}
-const Categories  = () => {
+const Categories = () => {
   const [categories, setCategories] = useState<string[]>([]);
 
   useEffect(() => {
@@ -25,7 +22,7 @@ const Categories  = () => {
     fetchCategories();
   }, []);
 
-  return <CategoriesButtons cards={categories} />
+  return <CategoriesButtons cards={categories} />;
 };
 
 export default Categories;

@@ -4,11 +4,7 @@ import { selectCartTotalQuantity } from "../Cart/cartSlice";
 
 import "./style.css";
 
-type NavProps = {
-  total: number;
-};
-
-const Navigation = ({ total }: NavProps) => {
+const Navigation = () => {
   const location = useLocation();
   const cartTotal:number = useSelector(selectCartTotalQuantity);
 

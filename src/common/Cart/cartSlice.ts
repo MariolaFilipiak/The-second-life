@@ -1,19 +1,12 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-
-interface CartItem {
-  id: any;
-  quantity: number;
-  price: number;
-  image: any;
-  title: string;
-}
-
-interface CartState {
-  items: CartItem[];
-}
+import {
+  getCartItemsFromLocalStorage,
+  setCartItemsToLocalStorage,
+} from "./cartLocalStorage";
+import { CartItem, CartState } from "./types";
 
 const initialState: CartState = {
-  items: JSON.parse(localStorage.getItem("cartItems") || "[]"),
+  items: getCartItemsFromLocalStorage(),
 };
 
 const cartSlice = createSlice({
@@ -28,12 +21,12 @@ const cartSlice = createSlice({
       } else {
         state.items.push({ ...product, quantity: 1 });
       }
-      localStorage.setItem("cartItems", JSON.stringify(state.items));
+      setCartItemsToLocalStorage(state.items);
     },
     removeFromCart: (state, action: PayloadAction<string>) => {
       const productId = action.payload;
       state.items = state.items.filter((item) => item.id !== productId);
-      localStorage.setItem("cartItems", JSON.stringify(state.items));
+      setCartItemsToLocalStorage(state.items);
     },
     updateQuantity: (
       state,
@@ -44,7 +37,7 @@ const cartSlice = createSlice({
       if (item) {
         item.quantity = quantity;
       }
-      localStorage.setItem("cartItems", JSON.stringify(state.items));
+      setCartItemsToLocalStorage(state.items);
     },
   },
 });

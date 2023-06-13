@@ -1,5 +1,3 @@
-import React from "react";
-
 const Intro = () => {
   return (
     <div className="container py-5">
@@ -15,13 +13,13 @@ const Intro = () => {
         </div>
         <div className="col-md-6 col-xl-5">
           <div className="lc-block mb-3">
-            <div >
+            <div>
               <h2 className="fw-bolder display-2">THE SECOND LIFE</h2>
             </div>
           </div>
 
           <div className="lc-block mb-4">
-            <div >
+            <div>
               <p className="lead">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
                 velit temporibus impedits maxime repellendus esse tempore odio

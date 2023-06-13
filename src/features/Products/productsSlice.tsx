@@ -1,12 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-
-type Product = {
-  id: any;
-  image: any;
-  title: string;
-  price: number;
-};
-
+import { Product } from "./type";
 interface ProductsState {
   products: Product[];
   status: "initial" | "loading" | "success" | "error";

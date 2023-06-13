@@ -20,8 +20,9 @@ Redux-Saga
 
 Bootstrap
 
-#
-#
+TypeScript
+
+
 
 ## Getting Started with Create React App
 

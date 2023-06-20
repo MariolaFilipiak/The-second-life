@@ -6,17 +6,8 @@
 
 ## Technologies used
 
-Bootstrap
+<img width="50" height="50" src="https://img.icons8.com/office/30/react.png" alt="react"/> <img width="50" height="50" src="https://img.icons8.com/color/50/typescript.png" alt="typescript"/> <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v2.png" alt="html-5--v2"/> <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>  <img width="50" height="50" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/external-redux-an-open-source-javascript-library-for-managing-application-state-logo-shadow-tal-revivo.png" alt="external-redux-an-open-source-javascript-library-for-managing-application-state-logo-shadow-tal-revivo"/> <img width="50" height="50" src="https://img.icons8.com/color/48/bootstrap.png" alt="bootstrap"/> 
 
-TypeScript
-
-Normalize
-
-React
-
-Redux
-
-Redux-Saga
 
 ## Getting Started with Create React App
 
